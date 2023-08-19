@@ -22,7 +22,6 @@ const populateSeats = () => {
     const cachedMoviePrice = localStorage.getItem("moviePrice");
 
     movieSelected = cachedMoviePrice;
-    // [cachedMovieIndex].attr("selected", "selected");
 };
 
 populateSeats();
