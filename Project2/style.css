@@ -14,7 +14,7 @@ body {
     font-family: Lato;
 }
 
-.container {
+#container {
     perspective: 1000px;
     margin-bottom: 30px;
 }
@@ -30,12 +30,12 @@ body {
     border-radius: 3px;
     padding: 5px 15px 5px 15px;
     margin-left: 5px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .seat {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     margin: 3px;
     background-color: rgb(203, 193, 193);
     border-radius: 10px 10px 0 0;
@@ -105,4 +105,10 @@ body {
 
 p.text span {
     color: rgb(44, 100, 148);
+}
+
+@media (min-width: 768px) {
+    body>* {
+        transform: scale(1.2);
+    }
 }
